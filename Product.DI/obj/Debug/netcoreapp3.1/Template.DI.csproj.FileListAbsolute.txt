@@ -1,0 +1,5 @@
+C:\Users\bidzi\source\repos\Template\Template.DI\bin\Debug\netcoreapp3.1\Template.DI.deps.json
+C:\Users\bidzi\source\repos\Template\Template.DI\bin\Debug\netcoreapp3.1\Template.DI.dll
+C:\Users\bidzi\source\repos\Template\Template.DI\obj\Debug\netcoreapp3.1\Template.DI.csprojAssemblyReference.cache
+C:\Users\bidzi\source\repos\Template\Template.DI\obj\Debug\netcoreapp3.1\Template.DI.AssemblyInfoInputs.cache
+C:\Users\bidzi\source\repos\Template\Template.DI\obj\Debug\netcoreapp3.1\Template.DI.AssemblyInfo.cs
