@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\sdf\\Product\\Product.Shared\\Product.Shared.csproj": {}
+    "C:\\Projects\\Mine\\Product\\Product.Shared\\Product.Shared.csproj": {}
   },
   "projects": {
-    "C:\\sdf\\Product\\Product.Shared\\Product.Shared.csproj": {
+    "C:\\Projects\\Mine\\Product\\Product.Shared\\Product.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\sdf\\Product\\Product.Shared\\Product.Shared.csproj",
+        "projectUniqueName": "C:\\Projects\\Mine\\Product\\Product.Shared\\Product.Shared.csproj",
         "projectName": "Product.Shared",
-        "projectPath": "C:\\sdf\\Product\\Product.Shared\\Product.Shared.csproj",
+        "projectPath": "C:\\Projects\\Mine\\Product\\Product.Shared\\Product.Shared.csproj",
         "packagesPath": "C:\\Users\\bidzi\\.nuget\\packages\\",
-        "outputPath": "C:\\sdf\\Product\\Product.Shared\\obj\\",
+        "outputPath": "C:\\Projects\\Mine\\Product\\Product.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bidzi\\AppData\\Roaming\\NuGet\\NuGet.Config",

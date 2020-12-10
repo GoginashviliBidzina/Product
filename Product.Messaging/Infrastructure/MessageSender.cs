@@ -69,10 +69,12 @@ namespace Product.Messaging.Infrastructure
                         message.UserProperties.Add("eventType", domainEvent.EventType);
 
                         await _client.SendAsync(message);
+                        if (domainEvents.Count() == 0)
+                            break;
                     }
                 }
             }
-            catch (System.Exception)
+            catch (System.Exception exception)
             {
                 throw;
             }

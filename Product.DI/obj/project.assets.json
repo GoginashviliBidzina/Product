@@ -10362,11 +10362,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\sdf\\Product\\Product.DI\\Product.DI.csproj",
+      "projectUniqueName": "C:\\Projects\\Mine\\Product\\Product.DI\\Product.DI.csproj",
       "projectName": "Product.DI",
-      "projectPath": "C:\\sdf\\Product\\Product.DI\\Product.DI.csproj",
+      "projectPath": "C:\\Projects\\Mine\\Product\\Product.DI\\Product.DI.csproj",
       "packagesPath": "C:\\Users\\bidzi\\.nuget\\packages\\",
-      "outputPath": "C:\\sdf\\Product\\Product.DI\\obj\\",
+      "outputPath": "C:\\Projects\\Mine\\Product\\Product.DI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\bidzi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10383,14 +10383,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\sdf\\Product\\Product.Application\\Product.Application.csproj": {
-              "projectPath": "C:\\sdf\\Product\\Product.Application\\Product.Application.csproj"
+            "C:\\Projects\\Mine\\Product\\Product.Application\\Product.Application.csproj": {
+              "projectPath": "C:\\Projects\\Mine\\Product\\Product.Application\\Product.Application.csproj"
             },
-            "C:\\sdf\\Product\\Product.Infrastructure\\Product.Infrastructure.csproj": {
-              "projectPath": "C:\\sdf\\Product\\Product.Infrastructure\\Product.Infrastructure.csproj"
+            "C:\\Projects\\Mine\\Product\\Product.Infrastructure\\Product.Infrastructure.csproj": {
+              "projectPath": "C:\\Projects\\Mine\\Product\\Product.Infrastructure\\Product.Infrastructure.csproj"
             },
-            "C:\\sdf\\Product\\Product.Messaging\\Product.Messaging.csproj": {
-              "projectPath": "C:\\sdf\\Product\\Product.Messaging\\Product.Messaging.csproj"
+            "C:\\Projects\\Mine\\Product\\Product.Messaging\\Product.Messaging.csproj": {
+              "projectPath": "C:\\Projects\\Mine\\Product\\Product.Messaging\\Product.Messaging.csproj"
             }
           }
         }

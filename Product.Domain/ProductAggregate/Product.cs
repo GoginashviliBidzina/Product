@@ -36,7 +36,22 @@ namespace Product.Domain.ProductAggregate
             Raise(new ProductAddedEvent(this));
         }
 
+        public void ChangeDetails(string name,
+                                  int amount,
+                                  string code,
+                                  string categoryIds,
+                                  Photo photo)
+        {
+            Name = name;
+            Amount = amount;
+            Code = code;
+            CategoryIds = categoryIds;
+            Photo = photo;
+
+            Raise(new ProductUpdatedEvent(this));
+        }
+
         public void RaiseDeleteEvent()
-           => new ProductDeletedEvent(Id);
+           => Raise(new ProductDeletedEvent(Id));
     }
 }

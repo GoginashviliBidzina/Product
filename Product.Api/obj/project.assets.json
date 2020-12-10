@@ -10623,11 +10623,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\sdf\\Product\\Product.Api\\Product.Api.csproj",
+      "projectUniqueName": "C:\\Projects\\Mine\\Product\\Product.Api\\Product.Api.csproj",
       "projectName": "Product.Api",
-      "projectPath": "C:\\sdf\\Product\\Product.Api\\Product.Api.csproj",
+      "projectPath": "C:\\Projects\\Mine\\Product\\Product.Api\\Product.Api.csproj",
       "packagesPath": "C:\\Users\\bidzi\\.nuget\\packages\\",
-      "outputPath": "C:\\sdf\\Product\\Product.Api\\obj\\",
+      "outputPath": "C:\\Projects\\Mine\\Product\\Product.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\bidzi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10644,11 +10644,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\sdf\\Product\\Product.Application\\Product.Application.csproj": {
-              "projectPath": "C:\\sdf\\Product\\Product.Application\\Product.Application.csproj"
+            "C:\\Projects\\Mine\\Product\\Product.Application\\Product.Application.csproj": {
+              "projectPath": "C:\\Projects\\Mine\\Product\\Product.Application\\Product.Application.csproj"
             },
-            "C:\\sdf\\Product\\Product.DI\\Product.DI.csproj": {
-              "projectPath": "C:\\sdf\\Product\\Product.DI\\Product.DI.csproj"
+            "C:\\Projects\\Mine\\Product\\Product.DI\\Product.DI.csproj": {
+              "projectPath": "C:\\Projects\\Mine\\Product\\Product.DI\\Product.DI.csproj"
             }
           }
         }

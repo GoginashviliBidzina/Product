@@ -1,8 +1,8 @@
-﻿using FluentValidation;
+﻿using System;
+using FluentValidation;
 using System.Threading.Tasks;
 using FluentValidation.Attributes;
 using Product.Application.Infrastructure;
-using System;
 
 namespace Product.Application.Commands
 {

@@ -25,7 +25,7 @@ namespace Product.Api.Controllers
         [HttpGet("listing")]
         public async Task<IActionResult> Listing([FromQuery] ProductListingQuery query)
         {
-            var result = await _queryExecutor.ExecuteAsync<ProductListingQuery, IEnumerable<ProductListingQueryResult>>(query);
+            var result = await _queryExecutor.ExecuteAsync<ProductListingQuery, ProductListingQueryResult>(query);
 
             return QueryResultToHttpResponse(result);
         }
@@ -39,7 +39,15 @@ namespace Product.Api.Controllers
         }
 
         [HttpPost("create")]
-        public async Task<IActionResult> Create([FromForm] PlaceProductCommand command)
+        public async Task<IActionResult> Create([FromBody] PlaceProductCommand command)
+        {
+            var result = await _commandExecutor.ExecuteAsync(command);
+
+            return CommandResultToHttpResponse(result, EntityStatusCode.Created);
+        }
+
+        [HttpPost("update")]
+        public async Task<IActionResult> Update([FromBody] UpdateProductCommand command)
         {
             var result = await _commandExecutor.ExecuteAsync(command);
 
