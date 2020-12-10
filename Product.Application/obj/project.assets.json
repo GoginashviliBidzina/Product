@@ -10305,11 +10305,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\sdf\\Product\\Product.Application\\Product.Application.csproj",
+      "projectUniqueName": "C:\\Projects\\Mine\\Product\\Product.Application\\Product.Application.csproj",
       "projectName": "Product.Application",
-      "projectPath": "C:\\sdf\\Product\\Product.Application\\Product.Application.csproj",
+      "projectPath": "C:\\Projects\\Mine\\Product\\Product.Application\\Product.Application.csproj",
       "packagesPath": "C:\\Users\\bidzi\\.nuget\\packages\\",
-      "outputPath": "C:\\sdf\\Product\\Product.Application\\obj\\",
+      "outputPath": "C:\\Projects\\Mine\\Product\\Product.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\bidzi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10326,11 +10326,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\sdf\\Product\\Product.Infrastructure\\Product.Infrastructure.csproj": {
-              "projectPath": "C:\\sdf\\Product\\Product.Infrastructure\\Product.Infrastructure.csproj"
+            "C:\\Projects\\Mine\\Product\\Product.Infrastructure\\Product.Infrastructure.csproj": {
+              "projectPath": "C:\\Projects\\Mine\\Product\\Product.Infrastructure\\Product.Infrastructure.csproj"
             },
-            "C:\\sdf\\Product\\Product.Messaging\\Product.Messaging.csproj": {
-              "projectPath": "C:\\sdf\\Product\\Product.Messaging\\Product.Messaging.csproj"
+            "C:\\Projects\\Mine\\Product\\Product.Messaging\\Product.Messaging.csproj": {
+              "projectPath": "C:\\Projects\\Mine\\Product\\Product.Messaging\\Product.Messaging.csproj"
             }
           }
         }

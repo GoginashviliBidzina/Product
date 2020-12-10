@@ -22,3 +22,15 @@ C:\Products\Product\Product.Domain\obj\Debug\netcoreapp3.1\Product.Domain.Assemb
 C:\Products\Product\Product.Domain\obj\Debug\netcoreapp3.1\Product.Domain.AssemblyInfo.cs
 C:\Products\Product\Product.Domain\obj\Debug\netcoreapp3.1\Product.Domain.csproj.CoreCompileInputs.cache
 C:\Products\Product\Product.Domain\obj\Debug\netcoreapp3.1\Product.Domain.csproj.CopyComplete
+C:\Projects\Mine\Product\Product.Domain\bin\Debug\netcoreapp3.1\Product.Domain.deps.json
+C:\Projects\Mine\Product\Product.Domain\bin\Debug\netcoreapp3.1\Product.Domain.dll
+C:\Projects\Mine\Product\Product.Domain\bin\Debug\netcoreapp3.1\Product.Domain.pdb
+C:\Projects\Mine\Product\Product.Domain\bin\Debug\netcoreapp3.1\Product.Shared.dll
+C:\Projects\Mine\Product\Product.Domain\bin\Debug\netcoreapp3.1\Product.Shared.pdb
+C:\Projects\Mine\Product\Product.Domain\obj\Debug\netcoreapp3.1\Product.Domain.csprojAssemblyReference.cache
+C:\Projects\Mine\Product\Product.Domain\obj\Debug\netcoreapp3.1\Product.Domain.AssemblyInfoInputs.cache
+C:\Projects\Mine\Product\Product.Domain\obj\Debug\netcoreapp3.1\Product.Domain.AssemblyInfo.cs
+C:\Projects\Mine\Product\Product.Domain\obj\Debug\netcoreapp3.1\Product.Domain.csproj.CoreCompileInputs.cache
+C:\Projects\Mine\Product\Product.Domain\obj\Debug\netcoreapp3.1\Product.Domain.csproj.CopyComplete
+C:\Projects\Mine\Product\Product.Domain\obj\Debug\netcoreapp3.1\Product.Domain.dll
+C:\Projects\Mine\Product\Product.Domain\obj\Debug\netcoreapp3.1\Product.Domain.pdb

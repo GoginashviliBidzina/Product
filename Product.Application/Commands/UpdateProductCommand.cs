@@ -1,5 +1,4 @@
-﻿using System;
-using System.Linq;
+﻿using System.Linq;
 using FluentValidation;
 using System.Threading.Tasks;
 using System.Collections.Generic;
@@ -10,9 +9,11 @@ using Product.Domain.ProductAggregate.ValueObjects;
 
 namespace Product.Application.Commands
 {
-    [Validator(typeof(PlaceProductCommandValidator))]
-    public class PlaceProductCommand : Command
+    [Validator(typeof(UpdateProductCommandValidator))]
+    public class UpdateProductCommand : Command
     {
+        public int Id { get; set; }
+
         public string Name { get; set; }
 
         public int Amount { get; set; }
@@ -31,9 +32,7 @@ namespace Product.Application.Commands
         {
             try
             {
-                var photo = new Photo(PhotoUrl,
-                                      PhotoWidth,
-                                      PhotoHeight);
+                var product = await _productRepository.GetByIdAsync(Id);
 
                 var categoryIds = _db.Set<Category>()
                                      .Where(category => CategoryIds.Contains(category.Id))
@@ -41,33 +40,38 @@ namespace Product.Application.Commands
                                      .Distinct()
                                      .ToList();
 
-                var product = new Domain.ProductAggregate.Product(Name,
-                                                                  Amount,
-                                                                  Code,
-                                                                  categoryIds?.Any() == true ? string.Join(',', categoryIds) : string.Empty,
-                                                                  photo);
+                var photo = new Photo(PhotoUrl,
+                                          PhotoWidth,
+                                          PhotoHeight);
+
+                product.ChangeDetails(Name,
+                                      Amount,
+                                      Code,
+                                      categoryIds?.Any() == true ? string.Join(',', categoryIds) : string.Empty,
+                                      photo);
 
                 await SaveAsync(product, _productRepository);
 
                 return await OkAsync(DomainOperationResult.Create(product.Id));
             }
-            catch (Exception)
+            catch (System.Exception)
             {
                 return await FailAsync(ErrorCode.Exception);
             }
         }
     }
 
-    internal class PlaceProductCommandValidator : AbstractValidator<PlaceProductCommand>
+    public class UpdateProductCommandValidator : AbstractValidator<UpdateProductCommand>
     {
-        public PlaceProductCommandValidator()
+        public UpdateProductCommandValidator()
         {
             RuleFor(product => product.Name).Custom((name, context) =>
             {
                 if (name.Any(char.IsDigit))
-                    context.AddFailure("Placing product failed: name shouldn't contain digits...");
+                    context.AddFailure("Updating product failed: name shouldn't contain digits...");
             });
-            RuleFor(product => product.Amount).GreaterThan(1).WithMessage("Placing product failed: product amount should be greater than one...");
+            RuleFor(product => product.Amount).GreaterThan(1).WithMessage("Updating product failed: product amount should be greater than one...");
+            RuleFor(product => product.Id).GreaterThan(0).WithMessage("Updating product failed: Id should be greater than zero...");
         }
     }
 }

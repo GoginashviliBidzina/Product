@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ji9uyrrK3mtGTknDbQHNhKZm01fvIKnsEMZZB9USZuf25U412JWDAk2+WbHi9llWba2K60J3EbIpvSpKZa6jnw==",
+  "dgSpecHash": "SpEeRtQnEh41p4NoGhuxrrhlJP0wfafrF1fF+ziIhawgotH+RgzQ4XJqBb+u2OfuNVZCwwx34AyiLvEK01thAw==",
   "success": true,
-  "projectFilePath": "C:\\sdf\\Product\\Product.Shared\\Product.Shared.csproj",
+  "projectFilePath": "C:\\Projects\\Mine\\Product\\Product.Shared\\Product.Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

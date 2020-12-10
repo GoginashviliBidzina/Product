@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QBk0U9FBaMejl7BW8JlA2BI5Tw22DbjVGOlXzgT12pH/abayXp+cYF32kBcO9PL8+A43I/SDrbUqvTYabr3EzA==",
+  "dgSpecHash": "+IFG2IJ2xFiFpsZE3Ii4SmT7uSgTIQF27Py5daQNbNgD2OLeRgFTQV6C7aDw+oNGeZ5c5BqY14WgBVBhIrN0cg==",
   "success": true,
-  "projectFilePath": "C:\\sdf\\Product\\Product.DI\\Product.DI.csproj",
+  "projectFilePath": "C:\\Projects\\Mine\\Product\\Product.DI\\Product.DI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bidzi\\.nuget\\packages\\fluentvalidation\\7.1.0\\fluentvalidation.7.1.0.nupkg.sha512",
     "C:\\Users\\bidzi\\.nuget\\packages\\fluentvalidation.aspnetcore\\7.1.0\\fluentvalidation.aspnetcore.7.1.0.nupkg.sha512",

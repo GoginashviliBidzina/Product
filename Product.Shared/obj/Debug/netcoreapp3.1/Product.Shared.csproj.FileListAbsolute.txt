@@ -16,3 +16,12 @@ C:\Products\Product\Product.Shared\obj\Debug\netcoreapp3.1\Product.Shared.Assemb
 C:\Products\Product\Product.Shared\obj\Debug\netcoreapp3.1\Product.Shared.csproj.CoreCompileInputs.cache
 C:\Products\Product\Product.Shared\obj\Debug\netcoreapp3.1\Product.Shared.dll
 C:\Products\Product\Product.Shared\obj\Debug\netcoreapp3.1\Product.Shared.pdb
+C:\Projects\Mine\Product\Product.Shared\bin\Debug\netcoreapp3.1\Product.Shared.deps.json
+C:\Projects\Mine\Product\Product.Shared\bin\Debug\netcoreapp3.1\Product.Shared.dll
+C:\Projects\Mine\Product\Product.Shared\bin\Debug\netcoreapp3.1\Product.Shared.pdb
+C:\Projects\Mine\Product\Product.Shared\obj\Debug\netcoreapp3.1\Product.Shared.csprojAssemblyReference.cache
+C:\Projects\Mine\Product\Product.Shared\obj\Debug\netcoreapp3.1\Product.Shared.AssemblyInfoInputs.cache
+C:\Projects\Mine\Product\Product.Shared\obj\Debug\netcoreapp3.1\Product.Shared.AssemblyInfo.cs
+C:\Projects\Mine\Product\Product.Shared\obj\Debug\netcoreapp3.1\Product.Shared.csproj.CoreCompileInputs.cache
+C:\Projects\Mine\Product\Product.Shared\obj\Debug\netcoreapp3.1\Product.Shared.dll
+C:\Projects\Mine\Product\Product.Shared\obj\Debug\netcoreapp3.1\Product.Shared.pdb

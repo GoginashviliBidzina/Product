@@ -30,8 +30,8 @@ namespace Product.Application.Queries
                                                                    product.PhotoWidth,
                                                                    product.PhotoHeight,
                                                                    product.PhotoUrl,
-                                                                   product.CategoryNames?.Split(',').ToList(),
-                                                                   product.CategoryIds?.Split(',').Select(Int32.Parse).ToList()));
+                                                                   !string.IsNullOrWhiteSpace(product.CategoryNames) ? product.CategoryNames.Split(',').ToList() : default,
+                                                                   !string.IsNullOrWhiteSpace(product.CategoryIds) ? product.CategoryIds.Split(',').Select(Int32.Parse).ToList() : default));
             }
             catch (Exception)
             {

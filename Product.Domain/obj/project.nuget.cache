@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J77YZR9/RyTNQIuACQGak7vGHEkwVX7ADJrsQElqQNn2LxLPOViy/hlU+Ql2gY8slIgM9Zv8DSbOi02QRxcvFw==",
+  "dgSpecHash": "ZaPWXkr3wyYEpXWCUlmCyY8wiO+/Qd/8eJDIlOZ5Yc5UtKVmVeWS4vbtUXbODnVqIYvpfJopWbM+5nMug87zwA==",
   "success": true,
-  "projectFilePath": "C:\\sdf\\Product\\Product.Domain\\Product.Domain.csproj",
+  "projectFilePath": "C:\\Projects\\Mine\\Product\\Product.Domain\\Product.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

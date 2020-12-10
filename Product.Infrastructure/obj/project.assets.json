@@ -10283,11 +10283,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\sdf\\Product\\Product.Infrastructure\\Product.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Projects\\Mine\\Product\\Product.Infrastructure\\Product.Infrastructure.csproj",
       "projectName": "Product.Infrastructure",
-      "projectPath": "C:\\sdf\\Product\\Product.Infrastructure\\Product.Infrastructure.csproj",
+      "projectPath": "C:\\Projects\\Mine\\Product\\Product.Infrastructure\\Product.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\bidzi\\.nuget\\packages\\",
-      "outputPath": "C:\\sdf\\Product\\Product.Infrastructure\\obj\\",
+      "outputPath": "C:\\Projects\\Mine\\Product\\Product.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\bidzi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10304,14 +10304,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\sdf\\Product\\Product.Domain\\Product.Domain.csproj": {
-              "projectPath": "C:\\sdf\\Product\\Product.Domain\\Product.Domain.csproj"
+            "C:\\Projects\\Mine\\Product\\Product.Domain\\Product.Domain.csproj": {
+              "projectPath": "C:\\Projects\\Mine\\Product\\Product.Domain\\Product.Domain.csproj"
             },
-            "C:\\sdf\\Product\\Product.Messaging\\Product.Messaging.csproj": {
-              "projectPath": "C:\\sdf\\Product\\Product.Messaging\\Product.Messaging.csproj"
+            "C:\\Projects\\Mine\\Product\\Product.Messaging\\Product.Messaging.csproj": {
+              "projectPath": "C:\\Projects\\Mine\\Product\\Product.Messaging\\Product.Messaging.csproj"
             },
-            "C:\\sdf\\Product\\Product.Shared\\Product.Shared.csproj": {
-              "projectPath": "C:\\sdf\\Product\\Product.Shared\\Product.Shared.csproj"
+            "C:\\Projects\\Mine\\Product\\Product.Shared\\Product.Shared.csproj": {
+              "projectPath": "C:\\Projects\\Mine\\Product\\Product.Shared\\Product.Shared.csproj"
             }
           }
         }

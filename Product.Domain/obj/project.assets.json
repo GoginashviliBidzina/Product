@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\sdf\\Product\\Product.Domain\\Product.Domain.csproj",
+      "projectUniqueName": "C:\\Projects\\Mine\\Product\\Product.Domain\\Product.Domain.csproj",
       "projectName": "Product.Domain",
-      "projectPath": "C:\\sdf\\Product\\Product.Domain\\Product.Domain.csproj",
+      "projectPath": "C:\\Projects\\Mine\\Product\\Product.Domain\\Product.Domain.csproj",
       "packagesPath": "C:\\Users\\bidzi\\.nuget\\packages\\",
-      "outputPath": "C:\\sdf\\Product\\Product.Domain\\obj\\",
+      "outputPath": "C:\\Projects\\Mine\\Product\\Product.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\bidzi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\sdf\\Product\\Product.Shared\\Product.Shared.csproj": {
-              "projectPath": "C:\\sdf\\Product\\Product.Shared\\Product.Shared.csproj"
+            "C:\\Projects\\Mine\\Product\\Product.Shared\\Product.Shared.csproj": {
+              "projectPath": "C:\\Projects\\Mine\\Product\\Product.Shared\\Product.Shared.csproj"
             }
           }
         }

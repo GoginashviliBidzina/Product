@@ -22,3 +22,15 @@ C:\Products\Product\Product.Messaging\obj\Debug\netcoreapp3.1\Product.Messaging.
 C:\Products\Product\Product.Messaging\obj\Debug\netcoreapp3.1\Product.Messaging.AssemblyInfo.cs
 C:\Products\Product\Product.Messaging\obj\Debug\netcoreapp3.1\Product.Messaging.csproj.CoreCompileInputs.cache
 C:\Products\Product\Product.Messaging\obj\Debug\netcoreapp3.1\Product.Messaging.csproj.CopyComplete
+C:\Projects\Mine\Product\Product.Messaging\bin\Debug\netcoreapp3.1\Product.Messaging.deps.json
+C:\Projects\Mine\Product\Product.Messaging\bin\Debug\netcoreapp3.1\Product.Messaging.dll
+C:\Projects\Mine\Product\Product.Messaging\bin\Debug\netcoreapp3.1\Product.Messaging.pdb
+C:\Projects\Mine\Product\Product.Messaging\bin\Debug\netcoreapp3.1\Product.Shared.dll
+C:\Projects\Mine\Product\Product.Messaging\bin\Debug\netcoreapp3.1\Product.Shared.pdb
+C:\Projects\Mine\Product\Product.Messaging\obj\Debug\netcoreapp3.1\Product.Messaging.csprojAssemblyReference.cache
+C:\Projects\Mine\Product\Product.Messaging\obj\Debug\netcoreapp3.1\Product.Messaging.AssemblyInfoInputs.cache
+C:\Projects\Mine\Product\Product.Messaging\obj\Debug\netcoreapp3.1\Product.Messaging.AssemblyInfo.cs
+C:\Projects\Mine\Product\Product.Messaging\obj\Debug\netcoreapp3.1\Product.Messaging.csproj.CoreCompileInputs.cache
+C:\Projects\Mine\Product\Product.Messaging\obj\Debug\netcoreapp3.1\Product.Messaging.csproj.CopyComplete
+C:\Projects\Mine\Product\Product.Messaging\obj\Debug\netcoreapp3.1\Product.Messaging.dll
+C:\Projects\Mine\Product\Product.Messaging\obj\Debug\netcoreapp3.1\Product.Messaging.pdb
